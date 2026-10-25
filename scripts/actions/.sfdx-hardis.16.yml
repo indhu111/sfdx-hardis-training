@@ -1,0 +1,9 @@
+commandsPostDeploy:
+  - id: 25ce5c87-d6d0-4150-91bb-9f500d8272db
+    label: Load handover checklist templates
+    type: data
+    command: ""
+    parameters:
+      sfdmuProject: HeliosHandoverTemplates
+    runOnlyOnceByOrg: true
+    context: process-deployment-only
